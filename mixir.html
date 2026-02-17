@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<style>
+    .mixlr h1 {
+        color: #ED1C24;
+        font-weight: 950;
+        font-family: sans-serif;
+    }
+
+    .mixlr {
+        display: flex;
+        align-items: center;
+    }
+
+    .op {
+        background-image: url(hero-1408-450802603f01f53ce29ad0878b92befd56a28a000b43a41b10d0c08595e9daa2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        padding-bottom: 5%;
+    }
+
+    .op span {
+        display: none;
+    }
+
+    .oo {
+        display: grid;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%;
+
+    }
+
+    .oo img {
+        width: 45%;
+        height: 100%;
+    }
+
+    .ll {
+        display: flex;
+    }
+
+    .jj {
+        height: -2%;
+    }
+
+    .bb {
+        background-image: url(https://d23yw4k24ca21h.cloudfront.net/assets/home/studio-2112-e7a89c7091944030f11994873cd208218311504f0d5b9e0fec20b8fd18bbbd9a.webp);
+        background-size: cover;
+        margin-top: 10%;
+        padding-top: 7%;
+    }
+
+    .BB {
+        width: 80%;
+    }
+
+    .aa {
+        display: flex;
+    }
+
+    .vv {
+        display: flex;
+        padding-left: 4%;
+        gap: 3%;
+        padding-top: 4%;
+    }
+
+    @media(max-width: 900px) {
+        .op {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+
+        }
+
+        .op p {
+            display: none;
+        }
+
+        .op {
+            background-image: none;
+            background-color: black;
+        }
+
+        .ll li {
+            display: none;
+        }
+
+        .ll button {
+            display: block;
+        }
+
+        .oo {
+            grid-template-columns: auto auto auto auto;
+        }
+
+        .aa {
+            display: block;
+        }
+
+        .AA {
+            width: -59%;
+        }
+
+        .qq {
+            text-align: center;
+        }
+
+        .QQ {
+            text-align: center;
+        }
+
+        .vv {
+            display: block;
+            justify-content: space-evenly;
+        }
+    }
+
+    @media(max-width:581px) {
+        .oo {
+            grid-template-columns: auto auto auto;
+        }
+    }
+
+    @media(max-width:300px) {
+        .oo {
+            grid-template-columns: auto auto;
+        }
+    }
+</style>
+
+<body>
+    <header class="flex justify-between pr-3 pb-5 ">
+        <div class="mixlr">
+            <img src="download (1).png" alt="">
+            <h1>Mixlr</h1>
+        </div>
+        <div class="ll">
+            <div class="list-none flex pt-3 gap-4">
+                <div class="dropdown-1">
+                    <li class="dropbtn">Solutions</li>
+                    <div class="dropdown-content-1">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div>
+                    <li>Use cases</li>
+                    <div>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div>
+                    <li>Customers</li>
+                </div>
+                <div>
+                    <li>Listen</li>
+                </div>
+                <div>
+                    <li>Pricing</li>
+                </div>
+                <div>
+                    <li>Login</li>
+                </div>
+            </div>
+            <div class="pt-3 pl-2">
+                <div class="bg-red-500 h-7 rounded-2xl w-40 pl-2">
+                    <button class="jj"><a href="" class="inline-flex items-center gap-2 text-white"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                            </svg>Get started free</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="op">
+        <div class="justify-items-center pt-5">
+            <h1 class="text-gray-500 pt-25 decoration-900 ">Mixlr Audio Broadcast Platform</h1>
+            <div class="QQ">
+                <h1 class="text-5xl pt-5 font-sans font-extrabold">Effortless live audio.</h1>
+            </div>
+            <p class="text-center w-150 text-2xl">No engineers, no complicated software, just professional live audio
+                made simple. With Mixlr you can broadcast in seconds, stream to your audience anywhere and sound
+                professional every time.</p>
+            <span>No engineers, no complicated software, just professionallive audio made simple.</span>
+            <div class="justify-items-center">
+                <button class="bg-white text-red-500 rounded-4xl w-40 h-11 shadow-red-900 shadow-xl self-center-safe"><a
+                        href="">View plans</a></button>
+                <button
+                    class="bg-red-500 text-white rounded-4xl w-40 h-11 shadow-red-900 shadow-xl place-content-center"><a
+                        href="">Get started free</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="justify-items-center">
+        <div class="qq">
+            <p class="text-5xl font-sans font-bold justify-items-center">You're in <span class="text-red-500">good
+                    company...</span></p>
+        </div>
+    </div>
+    <div class="justify-items-center">
+        <div class="oo">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/new-york-red-bulls-d7989daa0a39dd65f5623a77af1abece6a219b4e499b82cf0526e541ec435317.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/virgin-atlantic-3ea9787d1ec0f4ff6da00932a884cbf4f9059bb7db2fdf66e0be0a58f7daf515.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/belleville-senators-d9cda1f87eb62359a29d3d05017424e2d999cdf352bdff50d22b4518708af587.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/green-bay-1585a620e0dae51a5f99d973be1e45b3fc2dabba3e51f72147a3156bdba8b216.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/harvesters-church-c1b8091741b87a7db8ef12e4da2936c1f1ead4a53951020a58f85d9ac8f8a0f9.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/new-york-city-fc-cef2a2707eae2549b1e7d64dcb18dc6781474cd768ed998621ccb2179ae1b482.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/indycar-0aac011df748dc21c0e069055eff9073582a9225858fa7700d244252b4b2a781.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/redbull-salzburg-98b22310b71a068749509a36d32c0b97d955d7e8e120e38ae3d6be1e92dec185.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/ryan-jespersen-fa5a50c1c776c8d29ede7e8375f8363d9b944fdcc249e1780ec8e305526cb795.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/washington-wild-things-5a18f7a53fe0bb9c01076f4308cb0da0f9e3278506a5565dbea6a45cfdb07033.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/straubing-tigers-7941b781e71a7a23ab289064552c2ec8f6081726d7362d0c63cf7063452031c5.png"
+                alt="">
+            <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/logos/obama-foundation-b8e2d8c09d84a4c2c3e452c571ba71d698076027cd8227bc7dc6b2cd8d3b7fa7.png"
+                alt="">
+        </div>
+    </div>
+    <div class="text-4xl font-extrabold justify-items-center pt-25">
+        <h1>Read our case studies</h1>
+    </div>
+
+    <div class="flex justify-evenly pt-5">
+        <div class="aa">
+            <div class="bg-red-500 w-75 h-120 rounded-2xl justify-evenly">
+                <div>
+                    <img src="hero-1408-ed8901b5b457559df79c6fd6a0929f2a1f138cd5ce14d9c9fb2c87705a61f7b8.jpg" alt=""
+                        class="rounded-2xl">
+                    <p class="text-4xl">Empowering student-led sport-broadcasting Mixlr</p>
+                    <button></button>
+                </div>
+            </div>
+            <div class=" w-79 h-120 bg-green-500 rounded-2xl">
+                <img src="hero-1408-709484332200ef138fbd00f1b8d9bcd492184cc6741ad98eec2c50deef6f97fc.jpg" alt=""
+                    class="rounded-2xl">
+                <p class="text-4xl">How Yeovil Town FC's broadcast team reached more fans and simplified matchday
+                    commentary
+                    with Mixlr.</p>
+                <button></button>
+            </div>
+            <div class="AA">
+                <div class=" w-95 h-120 bg-red-500 rounded-2xl">
+                    <img src="hero-1408-2bb8436e462b3ad69919eecebfcb727626657dfad3726f7fa8d71b4e08a349a6.jpg" alt=""
+                        class="rounded-2xl">
+                    <p class="text-4xl">How DEFQON.1 Delivered Its Full Multi-Stage Experience to a Global Audience with
+                        Mixlr
+                    </p>
+                    <button></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bb">
+        <div class="text-4xl text-white justify-items-center font-extrabold font-sans">
+            <h1 class="w-170 text-center">Other streaming platforms prioritize video and ignore audio, leading to clunky
+                workflows and poor
+                listener experiences.</h1>
+        </div>
+        <div class="justify-items-center">
+            <p class="w-190 text-2xl text-center text-white pt-3">You're fighting with tools that weren't built for live
+                audio, costing you <span>time, money, and listeners.</span></p>
+            <p class="text-white pt-3">Broadcast effortlessly with Mixlr.<span class="text-white text-7x1">The platform
+                    built for audio.</span></p>
+            <div class="justify-items-center  pt-3 pb-7">
+                <button class="bg-white text-red-500 rounded-4xl w-40 h-11 shadow-red-900 shadow-xl self-center-safe"><a
+                        href="">View plans</a></button>
+                <button
+                    class="bg-red-500 text-white rounded-4xl w-40 h-11 shadow-red-900 shadow-xl place-content-center"><a
+                        href="">Get started free</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="justify-items-center">
+        <div class="text-4xl  font-bold w-110">
+            <h1 class="text-center pt-5">Mixlr is the fastest, most reliable way to broadcast professional live audio.</h1>
+        </div>
+        <div class="pt-5">
+            <p class=" w-100 text-center font-semibold font-stretch-extra-expanded">The complete solution - go live from
+                anywhere in seconds, sound professional, and deliver a superior listening experience.</p>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="vv">
+            <div class="bg-gray-300 w-90 justify-items-center rounded-2xl">
+                <h1 class="text-4xl">Create</h1>
+                <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/live-stream-908-1cbd72dc719a0739f584b085a758f0fb6be811d20d55135f4168501db47f49f7.webp"
+                    alt="" class="h-50">
+                <h1 class="text-2xl w-52 font-semibold">Create your channel in seconds</h1>
+                <p class="text-xl w-52">and go live — no technical set up needed.</p>
+            </div>
+            <div class="bg-gray-300 w-90 justify-items-center rounded-2xl">
+                <h1 class="text-4xl">Distribute</h1>
+                <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/distribute-908-4323f08a013a33841e7cd80642022fb8fdc40b5ed2fbb00a660c3edcbef81725.webp"
+                    alt="" class="h-50">
+                <h1 class="text-2xl w-52 font-semibold">Send listeners to your branded event page,<span
+                        class="font-thin">or</span> embed your stream <span class="font-thin">on your website, app, or
+                        socials.</span></h1>
+            </div>
+            <div class="bg-gray-300 w-90 justify-items-center rounded-2xl">
+                <h1 class="text-4xl">Host</h1>
+                <img src="https://d23yw4k24ca21h.cloudfront.net/assets/home/host-908-c3a70c6f43970d2795cd8f6c419bcedb387572fcb42194d315e394f1bb8ea0b1.webp"
+                    alt="" class="h-50">
+                <h1 class="text-2xl w-52 font-semibold">Record and share every broadcast <span class="font-thin">, all
+                        in one place.</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="text-red-500 text-3xl font-semibold text-center pt-5 pb-7"><a href="">View all features</a></h1>
+    </div>
+</body>
+
+</html>
